@@ -33,8 +33,24 @@ html {
 .banner-content {
   display: inline-block;
   position: absolute;
-  /* overflow: hidden; */
   bottom: 0;
   left: 0;
   color: #fff;
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    position: relative;
+    max-height: 480px;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 9em;
+  }
+
 }
